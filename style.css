@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.title {
+    display: flex;
+    background-color: rgb(170, 168, 168);
+    width: 300px;
+    margin: 150px auto 0 auto;
+    padding: 20px;
+    width: 500px;
+    height: 7px;
+    border-top: rgb(65, 0, 0) 3px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 10px 10px 15px 1px #888888;
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+h1 {
+    margin-left: 130px;
+}
+.container {
+    display: flex;
+    gap: 50px;
+    background: rgb(65, 0, 0); 
+    color: bisque;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 15px 1px #888888;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#posts {
+    width: 200px;
+}
+button {
+    cursor: pointer;
+}
+i {
+    cursor: pointer;
+} 
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.options {
+    display: inline-flex;
+    gap: 10px;
+}
+  
+#msg {
+    color: white;
+    font-size: 14px;
+    padding: 7px;
+  }
